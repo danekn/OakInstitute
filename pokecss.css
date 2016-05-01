@@ -87,6 +87,19 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	font-size: 1px;
 	line-height: 0px;
 }
+
+.button {
+    background-color: #FFC20C; /* Green */
+    border: none;
+    color: #2851A1;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-weight:bold;
+    font-size: 16px;
+}
+
 #result {
 	background-color: #2851a1;
     width: 80%;
