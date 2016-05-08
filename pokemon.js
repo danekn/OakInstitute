@@ -1,10 +1,18 @@
 function getPokemon () {
 	
 	document.getElementById("bt").style.display='none';
+	
+	//alert(index);
+document.getElementById("result_img").src="./pokeball_2.gif";
+
+var myTimer = setTimeout(function(){showPokemon()}, 3000);
+}
+
+function showPokemon () {
 	var index= Math.random()*79;
 	//alert(index);
 	index=Math.floor(index);
-	//alert(index);
+	
 document.getElementById("result_img").src="./pokedex/poke"+index+".png";
 var names =
 ["Bulbasaur",
