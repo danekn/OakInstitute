@@ -14,6 +14,7 @@ function showPokemon () {
 	index=Math.floor(index);
 	
 document.getElementById("result_img").src="./pokedex/poke"+index+".png";
+document.getElementById("result_img").onload=alert("pippo");
 var names =
 ["Bulbasaur",
 "Charmander",
